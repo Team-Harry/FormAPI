@@ -13,10 +13,10 @@ abstract class FormAPI implements Form
     public const FORM_TYPE_MODAL = 2;
     
     /** @var array $data */
-    protected array $data = [];
+    private array $data = [];
     
     /** @var int $formType */
-    protected int $formType;
+    private int $formType;
     
     public function __construct(int $type,string $title)
     {
